@@ -96,21 +96,28 @@ li{
     margin-top: 10px;
 
 }
-.tps{
-    display: flex;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 300px;
-    background-color: black;
-    border-color: black;
-    padding: 10px;
-    margin-top: 20px;
+.tps{   
+     margin-top: 30px;
+     text-transform: capitalize;
+     margin-left: 300px;
+     min-width: 130px;
+     height: 40px;
+     color: #fff;
+     padding: 10px 5px;
+     font-weight: bold;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     position: relative;
+     display: inline-flex;
+     outline: none;
+     border: 2px solid #212529;
+     background: #212529;
 }
-.tps2{
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    text-transform: capitalize;
-}
+.tps:hover {
+     background: #fff;
+     color: #212529
+    }
+
 .cont{
     display: flex;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -251,6 +258,9 @@ hr{
     margin-right: 300px;
     
 }
+.graficos{
+    margin-top: 25px;
+}
 .lorem{
     color:gray;
 }
@@ -271,6 +281,7 @@ hr{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
     text-transform:uppercase;
+    
 }
 
 .lorem2{
@@ -289,15 +300,21 @@ hr{
     text-align: left;
     
 }
+.listados{
+    margin-top: 100px;
+}
 
 .edu{
+    padding-left: 50px;
+    font-size: 2rem;
     text-transform: capitalize;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
 }
 .expe{
+    font-size: 2rem;
     text-transform: capitalize;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
-    padding-right: 740px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 720px;
 }
 .maestria{
     text-transform: capitalize;
@@ -362,20 +379,91 @@ hr{
     margin-top: -460px;
     margin-left: 10px;
 }
-/*
 .skills{
     padding-left: 450px;
     margin-top: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: capitalize;
+    
+    
 }
-.skill{
-    padding-right: 200px;
+.my{
+    text-align: left;
+    margin-bottom: 20px;
 }
 .web{
-    margin-top: 30px;
+    display: inline-flex;
+    padding-right: 280px;
+    
 }
-*/
+.porc{
+    padding-left: 150px;
+    display: inline-flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+.wd{
+    margin-top: 10px;
+    width: 350px;
+    height: 7px;
+}
+.htcss{
+    display: inline-flex;
+    margin-top: 20px;
+    padding-right: 280px;
+    
+}
+.ht{
+    margin-top: 10px;
+    width: 500px;
+    height: 7px;
+}
+.ochenta{
+    padding-left: 160px;
+    display: inline-flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.jss{
+    margin-top: 10px;
+    width: 430px;
+    height: 7px;
+}
+.skillsdos{
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.react{
+    margin-top: 10px;
+    width: 380px;
+    height: 7px;
+}
+.reactjs{
+    display: inline-flex;
+    margin-top: 20px;
+    padding-right: 325px;
+}
+.angular{
+    display: inline-flex;
+    margin-top: 20px;
+    padding-right: 310px;
+}
+.ang{
+    margin-top: 10px;
+    width: 320px;
+    height: 7px;
+}
+.boostrap{
+    display: inline-flex;
+    margin-top: 20px;
+    padding-right: 320px;
+    
+}
+.boost{
+    margin-top: 10px;
+    width: 580px;
+    height: 7px;
+}
+
 .cv{
     margin-top: 75px;
     min-width: 130px;
@@ -391,9 +479,9 @@ hr{
     border: 2px solid #212529;
     background: #fff;
 }
-.descargar{
-    text-decoration: none;
-    color:#212529;
+.cv:hover{
+    color: #fff;
+    background-color: #212529;
 }
 
 .quinta{
